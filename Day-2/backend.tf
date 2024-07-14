@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "simran-s3-demo"
+    bucket         = var.bucket_value
     key            = "simran/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
