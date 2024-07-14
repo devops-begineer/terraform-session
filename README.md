@@ -74,10 +74,17 @@ Backend is where Terraform stores its state file for access and collaboration.
 ## Important Commands
 
 `terraform init` - Sets up Terraform to manage your infrastructure such as installing all the relevant plugins.
+
 `terraform plan` - Shows what Terraform will do without making changes.
+
 `terraform apply` - Applies your configurations to create or update resources.
+
 `terraform destroy` - Removes all managed resources.
+
 `terraform validate` - Checks if your configuration files are syntactically valid and free from errors.
+
 `terraform fmt` - Automatically formats your Terraform code to a standard style.
+
 `terraform refresh` - Updates the state file with the actual state of resources in the cloud.
+
 `terraform taint` - Marks a managed resource for recreation on the next apply.
