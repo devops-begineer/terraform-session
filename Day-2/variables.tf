@@ -17,3 +17,7 @@ variable "key_name_value" {
 variable "bucket_value" {
     description = "value of the bucket name"
 }
+
+variable "region" {
+    description = "value of the region"
+}
