@@ -4,3 +4,7 @@ resource "aws_instance" "example" {
     subnet_id = var.subnet_id_value
     key_name = var.key_pair_value
 }
+
+resource "aws_s3_bucket" "s3_bucket" {
+  bucket = "simran-s3-demo"
+}
