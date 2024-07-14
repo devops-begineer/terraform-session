@@ -13,3 +13,7 @@ variable "subnet_id_value" {
 variable "key_name_value" {
     description = "value for key pair"
 }
+
+variable "bucket_value" {
+    description = "value of the bucket name"
+}
